@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        app:titleTextColor="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <ScrollView
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ereje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#E1E0D9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pravila1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:scrollbarSize="30sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="@string/pravila_1"/>
+            <TextView
+                android:id="@+id/pravila1e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/pravila_1e"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:text="@string/duba_sharty"
+                android:textStyle="italic"
+                android:textColor="#F44336"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:scrollbarSize="30sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="@string/duba_k_bolboosu"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="@string/sebebteri"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="5dp"
+                android:textStyle="italic"
+                android:textColor="#F44336"
+                android:text="@string/sebebteriT"/>
+
+            <TextView
+                android:id="@+id/pravila2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:scrollbarSize="30sp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="@string/pravila_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/pravila_2e"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/hadis_dua1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/hadis_dua2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/hadis_dua3"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

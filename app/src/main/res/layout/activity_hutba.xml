@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="forconsole.tasbeeh.android.tasbeeh.HutbaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        app:titleTextColor="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <ScrollView
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:padding="10dp"
+        android:background="@color/layout_back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nazvanie1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="23dp"
+            android:text="@string/name_hutba1" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="?android:attr/listDivider"
+            android:outlineSpotShadowColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nazvanie2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:text="@string/name_ar1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hadis1"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_red_light"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maanisi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hadis2"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="?android:attr/listDivider"
+            android:outlineSpotShadowColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:text="@string/namaz_jonundo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/namaz_jonundo1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hadis3"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="?android:attr/listDivider"
+            android:outlineSpotShadowColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:text="@string/ilim_zikir" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ilim_maanisi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hadis_ilim"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zikir_maanisi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hadis_zikir"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="?android:attr/listDivider"
+            android:outlineSpotShadowColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:text="@string/ikrom_muslim" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ikrom_maanisi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hadis_ikrom"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="?android:attr/listDivider"
+            android:outlineSpotShadowColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:text="@string/niet_iklas" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nien_maanisi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/niet_hadis"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="?android:attr/listDivider"
+            android:outlineSpotShadowColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:text="@string/din_jetkiruu" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daavat_maanisi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hadis_daavat"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="?android:attr/listDivider"
+            android:outlineSpotShadowColor="@android:color/black" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

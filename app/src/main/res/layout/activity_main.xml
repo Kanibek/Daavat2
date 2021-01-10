@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gradient"
+    tools:context="forconsole.tasbeeh.android.tasbeeh.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        app:titleTextColor="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <LinearLayout
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            app:cardCornerRadius="62dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="65dp">
+
+            <ImageView
+                tools:ignore="ContentDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/zaati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_corner"
+            android:padding="10dp"
+            android:text="Алланын 99-ысымы"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/zikr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_corner"
+            android:padding="10dp"
+            android:text="Зикир жана дубалар"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/tasbeeh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_corner"
+            android:padding="10dp"
+            android:text="Тасбих"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/hutba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_corner"
+            android:padding="10dp"
+            android:text="Алты сыпат"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

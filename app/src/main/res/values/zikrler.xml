@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adepteri">Дубам кабыл болсун десениз</string>
+    <string name="namazdagy">Намаздагы жана намаздан кийинки дубалар</string>
+    <string name="kechki">Танкы жана кечки дубалар</string>
+    <string name="kiyinchilik">Кыйынчылык-карыздан кутулуу учун дубалар</string>
+    <string name="kundoluk">Кундо окулуучу дубалар</string>
+    <string name="besh_dua">Беш дуба</string>
+    <string name="zikirler">Зикирдин турлору</string>
+    <string name="prog_jonundo">Тиркеме жонундо</string>
+</resources>

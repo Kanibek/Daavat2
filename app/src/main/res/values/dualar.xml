@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="arabic1">اللهم إنا نجعلك في نحورحم و نعوذ بك من شرورهم</string>
+    <string name="dualar1">Аллоохумма иннаа нажалука фи нухурихим ва наузу бика миң шурурихим</string>
+    <string name="dualar1m">Оо Аллах биз душмандын каршылыгына сени алып келебиз жана алардын жамандыгынан сенден паана тилейбиз</string>
+    <!-- Secondary brand color. -->
+
+
+    <string name="arabic2">اللهم استر عوراتنا وآمن روعاتنا</string>
+    <string name="dualar2">Аллоохуммастур ьавротинаа ва миң ровьатина</string>
+    <string name="dualar2m">Оо Аллах биздин кемчиликтерди жашыр жана коркунучубуздун ордуна тынчтык бер</string>
+    <!-- Secondary brand color. -->
+
+
+    <string name="arabic3">اللهم اكفيناهم بما شأت</string>
+    <string name="dualar3">Аллоохуммак фиинаахум бимаа ши-та</string>
+    <string name="dualar3m">Оо Аллах өзүң каалагандай душмандарга каршы бизге жетиштүү бол</string>
+    <!-- Secondary brand color. -->
+
+
+    <string name="arabic4">اللهم إني أعوذ بك من جهد البلاء ودرك الشقاء وسوء القضاء و شماتة الأعداء</string>
+    <string name="dualar4">Аллохумма иннии аьузу бика миң жахдил балаа ва даракишшикоои ва суу-ил кодоои ва шамаататил ьадааи</string>
+    <string name="dualar4m">Оо Аллахым жалгыз сенден бактысыздыктан, кыйын сыноодон жана душмандын маскара кылуусунан коргошунду суранам</string>
+    <!-- Secondary brand color. -->
+
+
+    <string name="arabic5">حسبنا الله و نعم الوكيل</string>
+    <string name="dualar5">Хасбуналлоху ва ниьмал вакиил</string>
+    <string name="dualar5m">Аллах бизге жетиштүү Ал кандай жакшы колдоочу</string>
+    <!-- Secondary brand color. -->
+
+
+    <string name="arabic6">لا إله إلا أنت سبحانك إني كنت من الظالمين</string>
+    <string name="dualar6">Лаа илааха илла анта субханака инни кунту миназзоолимиин</string>
+    <string name="dualar6m">Сенден башка кудай жок! Сен аруусун! Албетте мен адашкандардан болдум</string>
+    <!-- Secondary brand color. -->
+    <!-- Secondary brand color. -->
+    <!-- Secondary brand color. -->
+</resources>

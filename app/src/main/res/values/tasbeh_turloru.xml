@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hadis_zikir1">Самура бин Жундуп (разияллооху анху)дан риваят. Пайгамбар (саллоллооху алайхи ва саллам) айтат:
+    Алла Таалага эн суйкумдуу келиме тортоо: СубхаанАллох, Альхамдулиллах, Лаа Илааха Иллаллоох жана Аллаху Акбар.
+    Кимисин менен баштасан боло берет Дагы бир риваятта Ушул торт келиме Курандан кийинки эле эн абзел келимелер, Курандын создору деп келген.</string>
+
+    <string name="zikir_1AR">سبحان الله</string>
+    <string name="zikir_1KR">Субхаан Аллох</string>
+
+    <string name="zikir_2AR">الحمد لله</string>
+    <string name="zikir_2KR">Алхамдулиллах</string>
+
+    <string name="zikir_3AR">الله أكبر</string>
+    <string name="zikir_3KR">Аллоху Акбар</string>
+
+    <string name="zikir_4AR">لا إله إلاَّ الله</string>
+    <string name="zikir_4KR">Лаа Илааха Иллоллох</string>
+
+    <string name="zikir_5AR">أستغفر الله</string>
+    <string name="zikir_5KR">АстагфируЛлах</string>
+
+    <string name="zikir_6AR">لا حَوْلَ وَلا قُوَّةَ إِلاَّ بِاللهِ</string>
+    <string name="zikir_6KR">Лаа хавла валаа куввата иллаа биллаах</string>
+
+    <string name="zikir_7AR">لا إله إلا أنت سبحانك إني كنت من الظالمين</string>
+    <string name="zikir_7KR">Лаа илаха илла анта субханака инни кунту миназзоолимиин</string>
+
+</resources>

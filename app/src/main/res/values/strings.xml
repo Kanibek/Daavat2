@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Зикир жана дубалар</string>
+    <string name="resetText">БАШЫНАН БАШТОО</string>
+    <string name="countText">ЭСЕПТОО</string>
+</resources>

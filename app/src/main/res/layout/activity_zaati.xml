@@ -1,0 +1,3577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8D92AE"
+    tools:context="forconsole.tasbeeh.android.tasbeeh.ZaatiActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        app:titleTextColor="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E1E0D9"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/hadis"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA1"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK1"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             1           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA2"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK2"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM2"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             2           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA3"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK3"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM3"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             3           -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA4"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK4"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM4"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             4           -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA5"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK5"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM5"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             5           -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA6"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK6"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM6"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             1           -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA7"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK7"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM7"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             1           -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA8"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK8"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM8"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             1           -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA9"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK9"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM9"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+            <!-- Customize your theme here.             1           -->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA10"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK10"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM10"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+
+
+            <!-- Customize your theme here. ////////////////////// 10 ////////////////////////////////////////           -->
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA11"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK11"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM11"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             1           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA12"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK12"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM12"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             12           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA13"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK13"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM13"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             13           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA14"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK14"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM14"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             15           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA15"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK15"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM15"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider15"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             15           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA16"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK16"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM16"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider16"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             16           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA17"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK17"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM17"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider17"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             17           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA18"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK18"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM18"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider18"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             18           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA19"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK19"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM19"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider19"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here. 19             1           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA20"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK20"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM20"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider20"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.             1           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA21"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK21"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM21"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider21"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.21             1           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA22"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK22"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM22"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider22"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here.  22             1           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA23"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK23"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM23"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider23"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!-- Customize your theme here23.             1           -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA24"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK24"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM24"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider24"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 24 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA25"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK25"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM25"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider25"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here25 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA26"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK26"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM26"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider26"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 26 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA27"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK27"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM27"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider27"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 27 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA28"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK28"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM28"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider28"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 28 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA29"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK29"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM29"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider29"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 29 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA30"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK30"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM30"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider30"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 30 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA31"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK31"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM31"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider31"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 24 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA32"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK32"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM32"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider32"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 32 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA33"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK33"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM33"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider33"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 33 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA34"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK34"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM34"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider34"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 34 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA35"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK35"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM35"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider35"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 35 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA36"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK36"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM36"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider36"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 36 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA37"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK37"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM37"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider37"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 37 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA38"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK38"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM38"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider38"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 38 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA39"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK39"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM39"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider39"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 39 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA40"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK40"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM40"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider40"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 40 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA41"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK41"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM41"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider41"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 41 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA42"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK42"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM42"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider42"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 42 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA43"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK43"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM43"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider43"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 43 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA44"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK44"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM44"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider44"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 44 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA45"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK45"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM45"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider45"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 45 //////////////////////////////////////////////-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA46"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK46"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM46"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider46"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 46 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA47"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK47"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM47"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider47"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 47 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA48"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK48"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM48"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider48"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 48 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA49"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK49"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM49"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider49"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 49 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA50"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK50"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM50"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider50"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 50 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA51"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK51"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM51"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider51"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 51 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA52"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK52"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM52"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider52"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 52 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA53"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK53"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM53"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider53"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 53 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA54"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK54"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM54"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider54"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 54 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA55"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK55"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM55"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider55"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 55 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA56"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK56"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM56"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider56"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 56 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA57"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK57"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM57"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider57"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 57 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA58"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK58"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM58"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider58"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 58 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA59"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK59"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM59"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider59"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 59 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA60"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK60"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM60"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider60"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 60 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA61"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK61"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM61"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider61"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 61 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA62"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK62"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM62"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider62"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 62 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA63"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK63"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM63"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider63"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 63 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA64"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK64"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM64"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider64"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 64 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA65"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK65"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM65"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider65"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 65 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA66"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK66"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM66"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider66"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 66 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA67"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK67"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM67"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider67"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 67 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA68"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK68"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM68"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider68"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 68 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA69"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK69"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM69"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider69"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 69 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA70"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK70"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM70"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider70"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 70 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA71"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK71"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM71"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider71"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 71 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA72"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK72"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM72"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider72"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 72 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA73"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK73"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM73"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider73"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 73 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA74"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK74"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM74"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider74"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 74 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA75"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK75"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM75"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider75"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 75 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA76"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK76"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM76"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider76"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 76 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA77"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK77"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM77"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider77"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 77 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA78"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK78"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM78"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider78"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 78 //////////////////////////////////////////////-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA79"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK79"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM79"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider79"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 79 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA80"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK80"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM80"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider80"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 80 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA81"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK81"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM81"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider81"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 81 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA82"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK82"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM82"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider82"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 82 //////////////////////////////////////////////-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA83"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK83"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM83"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider83"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 83 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA84"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK84"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM84"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider84"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 84 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA85"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK85"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM85"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider85"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 85 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA86"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK86"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM86"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider86"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 86 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA87"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK87"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM87"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider87"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 87 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA88"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK88"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM88"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider88"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 88 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA89"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK89"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM89"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider89"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 89 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA90"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK90"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM90"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider90"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 90 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA91"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK91"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM91"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider91"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 91 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA92"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK92"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM92"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider92"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 92 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA93"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK93"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM93"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider93"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 93 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA94"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK94"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM94"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider94"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 94 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA95"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK95"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM95"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider95"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 95 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA96"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK96"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM96"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider97"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 97 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA98"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK98"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM98"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider98"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 98 //////////////////////////////////////////////-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiA99"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiK99"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sifaatiM99"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#F44336"
+                android:textStyle="italic"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:id="@+id/divider99"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="?android:attr/listDivider"
+                android:outlineSpotShadowColor="@android:color/black" />
+
+            <!--Customize your theme here 99 //////////////////////////////////////////////-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
